@@ -1,1 +1,98 @@
-this message is for the purpose of my project
+Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
+
+    1. What is Semantic HTML? 
+        -- USING HTML TAGS THAT CONVEYS THE MEANING OF THE CONTENT INSIDE
+    2. What is HTML used for? 
+        -- HTML IS USED FOR STRUCTURING AND CONTENT OF THE WEB PAGE
+    3. What is an attribute and where do we put it? 
+        -- ATTRIBUTES PROVIDE ADDITIONAL INFORMATION ABOUT AN ELEMENT AND ARE 
+                ALWAYS SPECIFIED IN THE OPENING TAG
+    4. What is the h1 tag used for? How many times should I use it on a page?
+        --H1 TAG IS USED FOR THE MAIN TITLE OF THE WEB PAGE. 
+            IT IS ONLY USED ONCE IN THE WEBPAGE  
+    5. Name two tags that have required attributes
+        -- <a> TAG AND <img> TAG BOTH REQUIRE ATTRIBUTES
+    6. What do we put in the head of our HTML document? 
+        -- IT IS WHERE WE PUT THE TITLE OF THE WEB PAGE, LINKS TO OUR EXTERNAL STYLESHEETS,
+            AND META INFORMATION.
+    7. What is an id? 
+        --IS AN ATTRIBUTE THAT SPECIFIES A UNIQUE ID FOR AN HTML ELEMENT
+    8. What elements can I add an id to? 
+        -- ANY ELEMENT CAN BE GIVEN AN ID
+    9. How many times can I use the same id on a page? 
+        -- YOU CAN ONLY USE AN ID ONCE 
+    10. What is a class? 
+        -- ATTRIBUTE WHICH SPECIFIES ONE OR MORE CLASS NAMES FOR AN HTML ELEMENT
+    11. What elements can I add a class to? 
+        -- YOU CAN ADD CLASS TO ANY ELEMENT
+    12. How many times can I use the same class on a page? 
+        --YOU CAN USE CLASSES MULTIPLE TIMES ON A PAGE
+    13. How do I get my link to open in a new tab?
+        -- BY GIVING AN ATTRIBUTE OF TARGET=_BLANK
+    14. What is the alt attribute used for? 
+        -- ALT ATTRIBUTE PROVIDES ALTERNATIVE TEXT FOR IMAGES IN CASE IT DOESN'T LOAD
+    15. How do I reference an id?
+        --BY USING "#" PLUS THE ID NAME WITH NO SPACE
+    16. What is the difference between a section and a div
+        --SECTION IS A SEMANTIC TAG WHILE DIV IS A PRESENTATIONAL TAG
+    17. What is CSS used for? 
+        --CSS IS USED FOR STYLING OUR HTML
+    18. How to we select an element? Example - every h2 on the page
+        -- BY ELEMENT SELECTOR, ID, CLASSES, OR DESCENDANT SELECTORS
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+        -- CLASSES CAN BE USED MULTIPLE TIMES WHILE IDS CAN ONLY BE USED ONCE IN A PAGE.
+        YOU CAN USE BOTH WHEN YOU WANT TO REFERENCE TO A CERTAIN ELEMENT AND STYLE IT ON CSS
+    20. How do we select classes in CSS?
+        -- BY USING "." PLUS CLASS NAME WITHOUT SPACE
+    21. How do we select a p element with a single class of “human””?
+        --p.human
+    22. What is a parent child selector? When would this be useful? 
+        -- ">" IS PLACED BETWEEN TOW CSS SELECTORS. USEFUL IF YOU ONLY WANT TO TARGET
+                THE DIRECT CHILD OF THE FIRST ELEMENT
+    23. How do you select all links within a div with the class of sidebar?
+        --div.sidebar a
+    24. What is a pseudo selector?
+        --IS A SELECTOR THAT SELECTS ELEMENTS THAT ARE IN A SPECIFIC STATE
+    25. What do we use the change the spacing between lines?
+        --LINE-HEIGHT PROPERTY
+    26. What do we use to change the spacing between letters?
+        --LETTER-SPACING PROPERTY
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+        --TEXT-TRANSFORM
+    28. How do I add a 1px border around my div that is dotted and black?
+        --BORDER:1PX DOTTED BLACK
+    29. How do I select everything on the page? 
+        --USING UNIVERSAL SELECTOR "*"
+    30. How do I write a comment in CSS?
+        -- "/**/"
+    31. How do I find out what file I am in, when I am using the command line? 
+        --PWD
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+        --LS
+    33. How do I remove a file via the command line? Why do I have to be careful with this
+        --RM. YOU HSOULD BE CAREFUL WITH THESE BECAUSE ONCE THE FILE IS DELETED, 
+            IT CANNOT BE RECOVERED.
+    34. Why should I use version control? 
+        --BECAUSE THSI WILL ALLOW COLLABORATIVE WORK TO RUN SMOOTHLY
+    35. How often should I commit to github?
+        --EVERY FEW MINUTES
+    36. What is the command we would use to push our repo up to github?
+        --GIT PUSH  
+    37. Walk me through Lambda's git flow. 
+        --FORK THE REPO. CLONE THE REPO. MAKE A BRANCH. PUSH BRANCH TO GITHUB. SUBMIT PULL REQUEST
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+        --INLINE ELEMENTS ONLY TAKE THE SPACE THE CONTENT NEEDS. BLOCK ELEMENTS WILL TAKE THE
+            WHOLE SPACE HORIZONTALLY REGARDLESS OF THE CONTENT
+    2. What happens when an element is positioned absolutely? 
+        --ELEMENT CAN BE POSITIONED ANYWHERE IN THE WEB PAGE
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+        --CHANGE DISPLAY TO INLINE-BLOCK
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+        --BLOCK ELEMENTS(DIV, H1-H6, SECTION), INLINE ELEMENTS(SPAN, A, EM), INLINE-BLOCK(IMG)
+    5. In your own words, explain the box model. What is the fix for the box model?
+        --BOX MODEL SAYS THAT AN ELEMENT ALWAYS HAS A CONTENT, PADDING, BORDER, AND MARGIN THAT AFFECTS
+            HOW THE SIZE OF THAT ELEMENT WOULD BE. A FIX FOR THIS IS SETTING THE BOX-SIZING PROPERTY
+            TO BORDER-BOX 
