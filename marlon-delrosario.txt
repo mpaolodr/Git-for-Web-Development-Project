@@ -95,4 +95,9 @@ Stretch Questions
     5. In your own words, explain the box model. What is the fix for the box model?
         --BOX MODEL SAYS THAT AN ELEMENT ALWAYS HAS A CONTENT, PADDING, BORDER, AND MARGIN THAT AFFECTS
             HOW THE SIZE OF THAT ELEMENT WOULD BE. A FIX FOR THIS IS SETTING THE BOX-SIZING PROPERTY
-            TO BORDER-BOX 
+            TO BORDER-BOX
+
+
+            https://codepen.io/mpaolodr/pen/NWWaGBR?editors=1100
+
+            -- link to codepen assignment 
